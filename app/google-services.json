@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "871399681078",
+    "project_id": "uap-pam-485ec",
+    "storage_bucket": "uap-pam-485ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871399681078:android:283e73e7e9d4d817c87c97",
+        "android_client_info": {
+          "package_name": "com.gsatria.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7sF5laPsi2Gcouz5FhEwHFqP1gofpujg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

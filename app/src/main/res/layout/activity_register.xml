@@ -30,8 +30,10 @@
         android:text="Email"/>
 
     <EditText
+        android:id="@+id/emailEt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
         android:hint="Email"/>
 
     <TextView
@@ -40,8 +42,10 @@
         android:text="Password"/>
 
     <EditText
+        android:id="@+id/passwordEt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textPassword"
         android:hint="Password"/>
 
     <TextView
@@ -50,15 +54,18 @@
         android:text="Konfirmasi Password"/>
 
     <EditText
+        android:id="@+id/confirmPasswordEt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textPassword"
         android:hint="Konfirmasi Password"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/main_btn"
-        android:text="Login"
+        android:text="Register"
         android:textColor="@color/white"
         android:textAllCaps="false"
         android:textSize="20sp"/>

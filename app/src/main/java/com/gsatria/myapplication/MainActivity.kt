@@ -13,7 +13,7 @@ import dagger.hilt.android.HiltAndroidApp
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val intent = Intent(this, HomeScreen::class.java)
+        val intent = Intent(this, Onboarding::class.java)
         startActivity(intent)
         finish()
     }
