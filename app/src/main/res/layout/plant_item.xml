@@ -11,6 +11,7 @@
         android:padding="15dp">
         
         <ImageView
+            android:id="@+id/plant_list_img"
             android:layout_width="87dp"
             android:layout_height="147dp"
             android:src="@drawable/plant"
@@ -47,6 +48,7 @@
                 android:orientation="horizontal">
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/plant_list_delete_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -58,6 +60,7 @@
                     android:layout_marginHorizontal="10dp"/>
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/plant_list_detail_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
