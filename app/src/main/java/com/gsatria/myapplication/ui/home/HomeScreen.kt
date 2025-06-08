@@ -43,6 +43,11 @@ class HomeScreen : AppCompatActivity(), PlantAdapter.OnItemClickListener {
     }
 
     override fun onDetailClick(plant: Plant) {
-        // todo
+        val intent = Intent(this, DetailScreen::class.java).apply {
+            putExtra("plant_name", plant.plantName)
+            putExtra("plant_price", plant.price)
+            putExtra("plant_description", plant.description)
+        }
+        startActivity(intent)
     }
 }
