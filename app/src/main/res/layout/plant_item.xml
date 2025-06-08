@@ -4,7 +4,8 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginTop="20dp"
-    app:cardCornerRadius="20dp">
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp">
 
     <LinearLayout
         android:id="@+id/cardLayout"
@@ -18,7 +19,8 @@
             android:layout_width="87dp"
             android:layout_height="147dp"
             android:src="@drawable/plant"
-            android:background="@drawable/list_img_bg"/>
+            android:background="@drawable/list_img_bg"
+            android:padding="4dp"/>
 
         <LinearLayout
             android:id="@+id/cardContentLayout"
@@ -33,7 +35,8 @@
                 android:text=""
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_marginBottom="15dp"/>
+                android:layout_marginBottom="15dp"
+                android:layout_marginHorizontal="8dp"/>
 
             <TextView
                 android:id="@+id/plant_list_price"
@@ -42,7 +45,8 @@
                 android:text=""
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_marginBottom="15dp"/>
+                android:layout_marginBottom="15dp"
+                android:layout_marginHorizontal="8dp"/>
 
             <LinearLayout
                 android:id="@+id/list_btn_layout"

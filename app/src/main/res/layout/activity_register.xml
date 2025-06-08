@@ -14,7 +14,8 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/logo"/>
+        android:src="@drawable/logo"
+        android:layout_marginBottom="8dp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -22,43 +23,62 @@
         android:text="Register"
         android:textSize="32sp"
         android:gravity="center"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Email"/>
+        android:text="Email"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"/>
 
     <EditText
         android:id="@+id/emailEt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
-        android:hint="Email"/>
+        android:hint="Email"
+        android:background="@drawable/main_input_field"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:layout_marginBottom="25dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Password"/>
+        android:text="Password"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"/>
 
     <EditText
         android:id="@+id/passwordEt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:hint="Password"/>
+        android:hint="Password"
+        android:background="@drawable/main_input_field"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:layout_marginBottom="25dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Konfirmasi Password"/>
+        android:text="Konfirmasi Password"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"/>
 
     <EditText
         android:id="@+id/confirmPasswordEt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:hint="Konfirmasi Password"/>
+        android:hint="Konfirmasi Password"
+        android:background="@drawable/main_input_field"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:layout_marginBottom="25dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/registerBtn"
