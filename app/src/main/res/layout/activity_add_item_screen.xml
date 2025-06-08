@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/main_input_field"
             android:padding="14dp"
-            android:text="Masukan nama tanaman"
+            android:hint="Masukan nama tanaman"
             android:textColor="@color/inputGray"
             android:textSize="20sp"/>
 
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/main_input_field"
             android:padding="14dp"
-            android:text="Masukan harga"
+            android:hint="Masukan harga"
             android:textColor="@color/inputGray"
             android:textSize="20sp"/>
 
@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/main_input_field"
             android:padding="14dp"
-            android:text="Masukan deskripsi"
+            android:hint="Masukan deskripsi"
             android:textColor="@color/inputGray"
             android:textSize="20sp"/>
 

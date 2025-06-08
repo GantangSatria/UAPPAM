@@ -32,7 +32,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Email"/>
+        android:hint="Email"
+        android:background="@drawable/main_input_field"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -42,7 +43,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Password"/>
+        android:hint="Password"
+        android:background="@drawable/main_input_field"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
