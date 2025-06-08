@@ -1,5 +1,6 @@
 package com.gsatria.myapplication.ui.home
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -32,7 +33,8 @@ class HomeScreen : AppCompatActivity(), PlantAdapter.OnItemClickListener {
         }
 
         binding.tambahBtn.setOnClickListener {
-            // todo
+            val intent = Intent(this, AddItemScreen::class.java)
+            startActivity(intent)
         }
     }
 
