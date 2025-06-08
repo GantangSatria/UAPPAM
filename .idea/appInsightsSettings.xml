@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.gsatria.myapplication" />
+                  <option name="mobileSdkAppId" value="1:871399681078:android:283e73e7e9d4d817c87c97" />
+                  <option name="projectId" value="uap-pam-485ec" />
+                  <option name="projectNumber" value="871399681078" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

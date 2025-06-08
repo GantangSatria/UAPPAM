@@ -59,8 +59,8 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:3.0.0")
     implementation("com.squareup.retrofit2:converter-gson:3.0.0")
 
-    implementation("com.google.dagger:hilt-android:2.56")
-    kapt("com.google.dagger:hilt-compiler:2.56")
+    implementation("com.google.dagger:hilt-android:2.56.2")
+    kapt("com.google.dagger:hilt-compiler:2.56.2")
 
     implementation(platform("com.google.firebase:firebase-bom:33.15.0"))
 }
