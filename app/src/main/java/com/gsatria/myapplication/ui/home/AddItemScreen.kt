@@ -47,6 +47,7 @@ class AddItemScreen : AppCompatActivity() {
                     try {
                         viewModel.addPlant(name, description, price)
                         Toast.makeText(this@AddItemScreen, "Berhasil menambahkan tanaman", Toast.LENGTH_SHORT).show()
+                        setResult(RESULT_OK)
                         finish()
                     } catch (e: Exception) {
                         Toast.makeText(this@AddItemScreen, "Gagal: ${e.message}", Toast.LENGTH_LONG).show()

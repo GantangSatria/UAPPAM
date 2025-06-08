@@ -11,9 +11,11 @@ import com.gsatria.myapplication.R
 import com.gsatria.myapplication.domain.model.Plant
 
 class PlantAdapter(
-    private val plants: List<Plant>,
+//    private val plants: List<Plant>,
     private val listener: OnItemClickListener
 ) : RecyclerView.Adapter<PlantAdapter.PlantViewHolder>() {
+
+    private var plants: List<Plant> = emptyList()
 
     interface OnItemClickListener {
         fun onDeleteClick(plant: Plant)
@@ -30,6 +32,8 @@ class PlantAdapter(
         fun bind(plant: Plant) {
             plantName.text = plant.plantName
             plantPrice.text = plant.price
+            deleteButton.setOnClickListener { listener.onDeleteClick(plant) }
+            detailButton.setOnClickListener { listener.onDetailClick(plant) }
             // plantImage.setImageResource(...)
 
             deleteButton.setOnClickListener {
@@ -52,4 +56,9 @@ class PlantAdapter(
     }
 
     override fun getItemCount() = plants.size
+
+    fun submitList(newPlants: List<Plant>) {
+        plants = newPlants.toList()
+        notifyDataSetChanged()
+    }
 }
